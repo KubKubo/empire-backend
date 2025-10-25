@@ -1,10 +1,13 @@
 require('dotenv').config();
 const express = require('express');
-const session = require('express-session');
 const app = express();
 
-app.use(session({ secret: process.env.SESSION_SECRET, resave: false, saveUninitialized: true }));
 app.use(express.json());
+
+// Root route for Railway landing
+app.get('/', (req, res) => {
+  res.send('EmpireLA backend is running 🚀');
+});
 
 app.use('/auth', require('./routes/auth'));
 app.use('/dashboard', require('./routes/dashboard'));
