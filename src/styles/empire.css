@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: #0a0a0a;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.empire-app {
+  text-align: center;
+  padding: 40px;
+}
+
+.empire-header {
+  background: linear-gradient(to right, #00ffff, #0055ff);
+  padding: 30px;
+  color: #000;
+  border-bottom: 3px solid #00ffff;
+  box-shadow: 0 0 20px #00ffff;
+}
+
+.empire-header h1 {
+  font-size: 2.8rem;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.empire-dashboard {
+  margin-top: 40px;
+}
+
+.empire-user h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.user-id {
+  font-size: 0.95rem;
+  color: #888;
+}
+
+.empire-control {
+  margin-top: 30px;
+}
+
+.empire-control h3 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.button-group button {
+  background-color: #00ffff;
+  color: #000;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.button-group button:hover {
+  background-color: #00cccc;
+  box-shadow: 0 0 25px #00cccc;
+}
